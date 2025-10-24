@@ -1,0 +1,20 @@
+.manager-main-right {
+    position: fixed;
+    /* 固定定位，始终在视口内 */
+    right: 0px;
+    /* 贴合右侧 */
+    top: 70px;
+    /* 从顶部开始 */
+    width: 1300px;
+    /* 指定宽度，根据需要可以调整 */
+    height: 100vh;
+    /* 占满整个视口高度 */
+    background-color: #f0f0f0;
+    /* 背景颜色 */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    /* 右侧阴影效果 */
+    overflow-y: auto;
+    /* 垂直方向上的溢出内容可以滚动 */
+    z-index: 1000;
+    /* 设置较高的层级以确保在其他元素之上 */
+}
